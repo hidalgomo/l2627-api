@@ -17,3 +17,4 @@ jobs:
         server: ftp.local2627.org
         username: api@local2627.org
         password: testing
+        server-dir: /api/
