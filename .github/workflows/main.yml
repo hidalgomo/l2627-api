@@ -15,6 +15,6 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ftp.local2627.org
-        username: ${{ secret.l2627_ftp_username }}
-        password: ${{ secrets.l2627_ftp_password }}
+        username: ${{ secret.L2627_FTP_PASSWORD }}
+        password: ${{ secrets.L2627_FTP_USERNAME }}
         server-dir: /api/
