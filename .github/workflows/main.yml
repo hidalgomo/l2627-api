@@ -16,4 +16,4 @@ jobs:
       with:
         server: ftp.local2627.org
         username: secret.L2627_FTP_PASSWORD
-        password: L2627_FTP_USERNAME
+        password: secret.L2627_FTP_USERNAME
