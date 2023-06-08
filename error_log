@@ -1,0 +1,3 @@
+[23-May-2023 13:53:26 UTC] PHP Fatal error:  Access level to App\Models\Title::$incrementing must be public (as in class Illuminate\Database\Eloquent\Model) in /home/dev2627/public_html/api/app/Models/Title.php on line 0
+[23-May-2023 14:02:17 UTC] PHP Fatal error:  Trait "Illuminate\Database\Eloquent\Concerns\HasUuids" not found in /home/dev2627/public_html/api/app/Models/Title.php on line 8
+[23-May-2023 14:05:14 UTC] PHP Fatal error:  Trait "Illuminate\Database\Eloquent\Concerns\HasUuids" not found in /home/dev2627/public_html/api/app/Models/Title.php on line 8
