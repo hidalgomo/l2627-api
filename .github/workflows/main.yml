@@ -15,6 +15,5 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ftp.local2627.org
-        username: api@local2627.org
-        password: testing
-        server-dir: ./
+        username: github_api@local2627.org
+        password: wordPass34
