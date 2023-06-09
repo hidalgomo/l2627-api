@@ -16,4 +16,4 @@ jobs:
       with:
         server: ftp.local2627.org
         username: github_api@local2627.org
-        password: wordPass34
+        password: testing
