@@ -16,4 +16,4 @@ jobs:
       with:
         server: ftp.local2627.org
         username: ${{secrets.L2627_FTP_USERNAME}}
-        password: testing
+        password: ${{secrets.L2627_FTP_PASSWORD}}
