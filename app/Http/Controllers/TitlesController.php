@@ -10,10 +10,9 @@ class TitlesController extends Controller
 {
     public function index(): Collection 
     {
-        return "testing";
-        // return Title::with('titleLevels')
-        //     ->where('is_active', true)
-        //     ->orderBy('name', 'ASC')
-        //     ->get();
+        return Title::with('titleLevels')
+            ->where('is_active', true)
+            ->orderBy('name', 'ASC')
+            ->get();
     }
 }
