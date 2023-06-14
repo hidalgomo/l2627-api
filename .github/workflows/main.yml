@@ -1,17 +1,18 @@
 on:
     push:
         branches:
-            - main
-name: 🚀 Deploy website on push
+        - main
+    workflow_dispatch:
+
+name: Deploy
 jobs:
   web-deploy:
-    name: 🎉 Deploy
+    name: Deploy
     runs-on: ubuntu-latest
     steps:
-    - name: 🚚 Get latest code
+    - name: Checkout repository
       uses: actions/checkout@v3
-    
-    - name: 📂 Sync files
+    - name: Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ftp.local2627.org
